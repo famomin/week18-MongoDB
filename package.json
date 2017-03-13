@@ -1,0 +1,31 @@
+{
+  "name": "article-scrapper",
+  "version": "1.0.0",
+  "description": "scraps cricinfo.com",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cheerio": "^0.22.0",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.7",
+    "mongoose": "^4.8.7",
+    "morgan": "^1.8.1",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/famomin/week18-MongoDB.git"
+  },
+  "author": "Faras Momin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/famomin/week18-MongoDB/issues"
+  },
+  "homepage": "https://github.com/famomin/week18-MongoDB#readme"
+}
