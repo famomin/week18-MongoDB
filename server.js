@@ -29,7 +29,8 @@ app.use(bodyParser.urlencoded({
 }));
 
 // Database configuration with mongoose
-mongoose.connect("mongodb://localhost/cricinfo");
+//mongoose.connect("mongodb://localhost/cricinfo");
+mongoose.connect("mongodb://heroku_9rclmr1x:tpv1tmbbghtg5pnda0eg4bigdo@ds129050.mlab.com:29050/heroku_9rclmr1x");
 var db = mongoose.connection;
 
 // Show any mongoose errors
